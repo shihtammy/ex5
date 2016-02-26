@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: cadetblue;
+    font-family: futura;
+    text-align: center;
+    padding-top: 150px;
+}
+
+h1 {
+    font-family: futura;
+    font-size: 30px;
+}
+
+h2 {
+    font-family: futura;
+    font-size: 60px;
+}
+
+fieldset {
+    border: 0;
+    }
+    label {
+    display: block;
+    margin: 30px 0 0 0;
+    }
+    select {
+    width: 200px;
+    }
+    .overflow {
+    height: 200px;
+    }
+
+button {
+    padding: 10px;
+    margin-top: 25px;
+    font-family: futura;
+}
