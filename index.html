@@ -10,6 +10,11 @@
 
     <script src="ex5.js"></script>
 
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <link rel="stylesheet" href="/resources/demos/style.css">
+
 </head>
 
 
@@ -24,43 +29,42 @@
 
             <fieldset>
 
-                <label for="visual">Visual Communication</label>
-
-                <select name="visual" id="visual">
-                    <option selected="selected">--Select--</option>
-                    <optgroup label="Visual Communication">
-                        <option value="branding">Branding</option>
-                        <option value="marketing">Marketing</option>
-                    </optgroup>
-                    <optgroup label="Other">
-                        <option value="ux">UX/UI</option>
-                        <option value="ad">Advertising</option>
-                    </optgroup>
-                </select>
-
-                <label for="interior">Interior Design</label>
+                <label for="visual">Interior Design</label>
 
                 <select name="interior" id="interior">
-                    <option selected="selected">--Select--</option>
-                    <option>Commercial</option>
-                    <option>Residential</option>
-                    <option>Lighting</option>
-                    <option>Wayfinding</option>
+                    <option selected="selected"></option>
+                    <optgroup label="Interior Design">
+                    <option value="commercial">Commercial</option>
+                    <option value="residential">Residential</option>
+                    <optgroup label="Other">
+                    <option value="light">Lighting</option>
+                    <option value="way">Wayfinding</option>
+                </optgroup>
                 </select>
 
-                <label for="fashion">Fashion</label>
+                <label for="level">Job Level</label>
 
-                <select name="fashion" id="fashion">
-                    <option selected="selected">--Select--</option>
-                    <option>Manufacturing</option>
-                    <option>Marketing Promotion</option>
-                    <option>Retail</option>
+                <select name="level" id="level">
+                    <option selected="selected"></option>
+                    <option>Part-time</option>
+                    <option>Internship</option>
+                    <option>Entry-Level</option>
+                    <option>Full time</option>
+                </select>
+
+                <label for="exp">Level of Experience</label>
+
+                <select name="exp" id="exp">
+                    <option selected="selected"></option>
+                    <option>< 1 year</option>
+                    <option>2 - 5 years</option>
+                    <option>5+ years</option>
                 </select>
             </fieldset>
 
         </form>
 
-        <button>NEXT</button>
+        <button><a href="http://www.disd.edu/careers-interior-design.php">NEXT</a></button>
 
     </section>
 

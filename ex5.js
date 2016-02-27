@@ -3,11 +3,11 @@ $(document).ready(function () {
     console.log('ready');
 
 $(function() {
-    $( "#visual" ).selectmenu();
- 
     $( "#interior" ).selectmenu();
  
-    $( "#fashion" )
+    $( "#level" ).selectmenu();
+ 
+    $( "#exp" )
       .selectmenu()
       .selectmenu( "menuWidget" )
         .addClass( "overflow" );
